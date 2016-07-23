@@ -1,0 +1,167 @@
+/* lg */ 
+@media (min-width: 1400px) {
+	
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.instruction-tab .tab-list li {
+		width: 32.8%;
+	}
+	.instruction-tab .tab-list li a {
+		padding:17px 12px;
+	}
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-header {
+		max-width:30%;
+	}
+	.navbar-brand > img {
+		width:100%;
+	}
+	.navbar-nav li a {
+		padding:10px 8px;
+		line-height:35px;
+	}
+	.main-slider .slider-content h2 {
+		font-size:45px;
+	}
+	#instruction img {
+		width:100%;
+		margin-bottom:30px;
+	}
+	.visa-tab .tab-content {
+		padding: 60px 45px;
+	}
+	#gmap {
+		height:450px;
+	}
+}
+
+
+/* xs */
+@media (max-width: 767px) {
+	.nonmobile {
+		display: none;
+	}
+	.navbar-brand {
+		max-width: 80%;
+	}
+	.navbar-brand img {
+		width:90%;
+	}
+	h1 {
+		font-size:28px;
+	}
+	h2{
+		font-size:20px;
+	}
+	h3{
+		font-size:16px;
+	}
+	.padding {
+		padding: 50px 10px;
+	}
+	.section-title {
+		margin-bottom:30px;
+		font-size:14px;
+	}
+	.section-title h1{
+		font-size:28px;
+	}
+	.parallax-section {
+		min-height:370px;
+	}
+	.navbar-nav li a {
+		line-height:18px;
+		font-size:13px;
+	}
+	.main-slider{
+		padding:0 30px;
+		margin-top:120px;
+		margin-bottom:60px;
+	}
+	.main-slider .slider-content h2{
+		font-size:35px
+	}
+	.main-slider .slider-content h4 {
+		margin-bottom:45px;
+	}
+	.register-section h2 {
+		font-size: 26px;
+		margin-bottom: 30px;
+	}
+	#instruction .padding {
+		padding-top:35px;
+	}
+	.instruction-tab {
+		margin-top:25px;
+	}
+	.instruction-tab .tab-list li {
+		width: 32.5%;
+	}
+	.instruction-tab .tab-list li a {
+		padding:10px 12px;
+		font-size:15px;
+	}
+	.instruction-tab .tab-content {
+		padding: 25px 30px;
+	}
+	#short-story h1 {
+		font-size:36px;
+	}
+	#package .padding {
+		padding-bottom:25px;
+	}
+	.package-tab .tab-list {
+		margin-bottom: 50px;
+	}
+	.package-tab .package-info {
+		margin-bottom:25px;
+	}
+	.visa-tab .tab-content {
+		padding: 25px 0px;
+	}
+	.visa-tab .tab-content h1{
+		font-size:30px;
+	}
+	.visa-tab .tab-list li{
+		display:inline-block;
+	}
+	.visa-tab .tab-list li a {
+		padding:10px 25px;
+	}
+	.visa-info {
+		margin-bottom:15px;
+	}
+	#call-to-action h1 {
+		font-size:36px;
+	}
+	#contact-us .padding {
+		padding-bottom:10px;
+	}
+	.contact-content .contact-info {
+		margin-bottom:45px;
+	}
+	#gmap {
+		height:350px;
+	}
+	#contact-us .contact-form {
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+	#footer-bottom {
+		padding: 30px 0px 20px;
+	}
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+	.visa-tab .tab-list li {
+		max-width:100%;
+		display:block;
+	}
+}
+
