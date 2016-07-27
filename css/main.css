@@ -392,6 +392,7 @@ transition: all 0.5s ease-in-out;
 
 .visa-tab .tab-content p {
 	margin-bottom:25px;
+	font-size: 1.2em;
 }
 
 .visa-tab .tab-content a {
@@ -402,6 +403,11 @@ transition: all 0.5s ease-in-out;
 
 .visa-tab .tab-content a:hover {
 	color:#fff;
+}
+
+.visa-tab .tab-content li {
+	line-height: 1.5em;
+	font-size: 1.2em;
 }
 
 
