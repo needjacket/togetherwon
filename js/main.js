@@ -31,5 +31,14 @@ jQuery(function ($) {
 		}
 		parallaxInit();
 	}());
+
+
+	$('#carousel-prev').click(function () {
+		$('#comments-carousel').carousel('prev');
+	});
+
+	$('#carousel-next').click(function () {
+		$('#comments-carousel').carousel('next');
+	});
 });
 
