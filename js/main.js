@@ -50,11 +50,11 @@ jQuery(function ($) {
 				url: "http://api.faceprints.net/api/form",
 				data: data,
 				success: function () {
-					$('#status').html("Your information was successfully sent.").removeClass();
+					$('#modalContent').html("Your information was successfully sent.").removeClass();
 					$('#modal').modal({});
 				},
 				error: function () {
-					$('#status').html("Unable to send form data at this time. Please try emailing us.").removeClass().addClass("label label-important");
+					$('#modalContent').html("Unable to send form data at this time. Please try emailing us.").removeClass().addClass("label label-danger");
 					$('#modal').modal({});
 				}
 			})
