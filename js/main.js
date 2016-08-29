@@ -40,5 +40,25 @@ jQuery(function ($) {
 	$('#carousel-next').click(function () {
 		$('#comments-carousel').carousel('next');
 	});
+
+	// XHR form submit
+	$(function () {
+		$('form').submit(function () {
+			var data = $(this).serialize();
+			$.ajax({
+				type: 'POST',
+				url: "http://api.faceprints.net/api/form",
+				data: data,
+				success: function () {
+					$('#status').html("Your information was successfully sent.").removeClass();
+					$('#modal').modal({});
+				},
+				error: function () {
+					$('#status').html("Unable to send form data at this time. Please try emailing us.").removeClass().addClass("label label-important");
+					$('#modal').modal({});
+				}
+			})
+		})
+	});
 });
 
