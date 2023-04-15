@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	color: #353535;
 	background-color: #fff;
 }
@@ -84,8 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary {
 	margin-top: 25px;
 	margin-bottom: 25px;
-	border: 2px solid rgb(89, 20, 160);
-	color: rgb(89, 20, 160);
+	border: 2px solid #de9115;
+	color: #de9115;
 	background-color: transparent;
 	text-transform: uppercase;
 	font-size: 16px;
@@ -121,31 +121,31 @@ h1, h2, h3, h4, h5, h6 {
 .btn-primary:before {
 	left: 0;
 	top: 0;
-	border-top: 2px solid rgb(89, 20, 160);
+	border-top: 2px solid #de9115;
 }
 
 .btn-primary:after {
 	right: 0;
 	bottom: 0;
-	border-bottom: 2px solid rgb(89, 20, 160);
+	border-bottom: 2px solid #de9115;
 }
 
 .btn-primary:hover:before {
 	left: 0;
 	width: 100%;
-	background-color: rgba(89, 20, 160, .7);
+	background-color: #de9115;
 }
 
 .btn-primary:hover:after {
 	width: 100%;
 	right: 0;
-	background-color: rgba(89, 20, 160, .7);
+	background-color: #de9115;
 }
 
 .btn-primary:hover {
 	color: #fff;
 	background-color: transparent;
-	box-shadow: 0px 0px 0px 1px rgba(89, 20, 160, .7);
+	box-shadow: 0px 0px 0px 1px #de9115;
 }
 
 .parallax-section {
@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-control:focus {
-	border-color: rgba(89, 20, 160, .7);
+	border-color: #de9115;
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -211,13 +211,16 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #fff;
 }
 
+.about-text {
+	font-size: 20px;
+}
 /*==============================
 =========navigation-section=========
 ================================*/
 
 .navbar-fixed-top {
 	background-color: transparent;
-	top: 40px;
+	top: 60px;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
@@ -233,10 +236,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-nav li a {
 	text-transform: uppercase;
 	line-height: 28px;
+	padding-top: 30px;
 }
 
 .navbar-brand {
-	height: 70px;
+	height: 85px;
 	padding: 5px 15px;
 }
 
@@ -244,6 +248,10 @@ h1, h2, h3, h4, h5, h6 {
 	.navbar > .container .navbar-brand {
 		margin-left: -35px;
 	}
+}
+
+#nav-logo {
+	max-width: 200px;
 }
 
 /*==============================
@@ -254,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 730px;
-	background-image: url(../images/shoe.jpg);
+	background-image: url(../images/hero4.jpg);
 }
 
 .slider-content {
@@ -270,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slider-content h1 span {
-	color: #5914a0;
+	color: #de9115;
 }
 
 /*=========Carousel Fade==========*/
@@ -308,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 /*=========about==========*/
 
 #about {
-	background-image: url(../images/pregnant_prone.jpg);
+	background-image: url(../images/senior_dumbell2.jpeg);
 	font-weight: 300;
 	font-size: 18px;
 	background-color: #333;
@@ -481,7 +489,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer-bottom a {
-	color: #5914a0;
+	color: #de9115;
 	font-weight: 600;
 }
 
@@ -501,7 +509,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .plans .plan {
-	background-color: #5914a0;
+	background-color: #4c667a;
 	color: #fff;
 	padding: 30px 25px;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -511,6 +519,23 @@ h1, h2, h3, h4, h5, h6 {
 	transition: all 0.5s ease-in-out;
 	margin-bottom: 15px;
 	border-radius: 20px;
+	text-align: center;
+}
+
+/* .plans {
+	display: flex;
+	align-items: stretch;
+} */
+
+.row {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.plan {
+	min-width: 200px;
+	flex: 1;
 }
 
 .plans .plan h1 {
@@ -523,9 +548,9 @@ h1, h2, h3, h4, h5, h6 {
 .trainer {
 	position: relative;
 	overflow: hidden;
-	background-color: #5914a0;
+	background-color: #4c667a;
 	color: white;
-}
+} 
 
 #trainer .product-info {
 	padding: 20px;
@@ -577,5 +602,16 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 20px;
 }
 
+#trainer-image {
+	max-width: 300px;
+	margin-bottom: 20px;
+}
 
+.col-sm-12 {
+	display: flex;
+	align-items: space-between;
+}
 
+.product-info {
+	min-width: 100px;
+}
