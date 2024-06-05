@@ -615,3 +615,64 @@ h1, h2, h3, h4, h5, h6 {
 .product-info {
 	min-width: 100px;
 }
+
+ul {
+    list-style-type: disc; /* Ensure bullets are shown */
+    padding-left: 20px; /* Add padding if necessary */
+}
+
+th, td {
+	border: 1px solid #353535;
+	border-top: none;
+	border-bottom: none;
+	/* border-left: none;
+	border-right: none; */
+	border-radius: 10%;
+	padding: 8px;
+	text-align: center;
+}
+
+.tables-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.table-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#standard-training-packages h1 {
+	text-align: center;
+	color: #de9115;
+}
+
+#comprehensive-packages h1 {
+	text-align: center;
+	color: #de9115;
+}
+
+.table-container {
+	padding-bottom: 20px;
+}
+
+table {
+	background-color: #4c667a;
+}
+
+/* th {
+	color: #de9115;
+} */
+
+.comprehensive-packages-table {
+	display: flex;
+	justify-content: center;
+}
+
+table {
+	padding: 20px;
+	border-radius: 3%;
+}
