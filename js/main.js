@@ -47,7 +47,7 @@ jQuery(function ($) {
 			var data = $(this).serialize();
 			$.ajax({
 				type: 'POST',
-				url: "http://api.faceprints.net/api/form",
+				url: "https://api.faceprints.net/api/form",
 				data: data,
 				success: function () {
 					$('#modalContent').html("Your information was successfully sent.").removeClass();
