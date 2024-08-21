@@ -370,11 +370,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .visa-tab .tab-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
 }
 
+.tab-child {
+	align-self: center;
+	justify-self: center;
+}
+
+#test {
+	height: 100%;
+}
+
+.individual-training {
+	border-top: 1px solid #000;
+}
+
 .visa-tab .tab-list li {
-	position: relative;
+	/* position: relative; */
 	border-bottom: 1px solid #000;
 	max-width: 145px;
 }
@@ -676,3 +692,9 @@ table {
 	padding: 20px;
 	border-radius: 3%;
 }
+
+#testimonials {
+	background-color: #353535;
+	color: #fff;
+}
+
