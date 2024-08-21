@@ -251,6 +251,10 @@
 	.individual-training {
 		border-top: none;
 	}
+
+	.form-group {
+		width: 100%;
+	}
 }
 
 /* XS Portrait */
@@ -285,6 +289,10 @@
 
 	.individual-training {
 		border-top: none;
+	}
+
+	.form-group {
+		width: 100%;
 	}
 }
 
