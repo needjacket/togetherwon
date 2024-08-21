@@ -96,6 +96,7 @@
 		font-size: 15px; 
 	}
 	
+	
 }
 
 
@@ -227,6 +228,29 @@
 	#about p {
 		font-size: 15px; 
 	}
+
+	.visa-tab .tab-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	
+	.tab-child {
+		align-self: center;
+		justify-self: center;
+		list-style-type: none;
+	}
+	
+	#test {
+		height: 100%;
+		width: 100vw;
+	}
+
+	.individual-training {
+		border-top: none;
+	}
 }
 
 /* XS Portrait */
@@ -238,6 +262,29 @@
 
 	.hidden-image {
 		display: none;
+	}
+
+	.visa-tab .tab-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	
+	.tab-child {
+		align-self: center;
+		justify-self: center;
+		list-style-type: none;
+	}
+	
+	#test {
+		height: 100%;
+		width: 90vw;
+	}
+
+	.individual-training {
+		border-top: none;
 	}
 }
 

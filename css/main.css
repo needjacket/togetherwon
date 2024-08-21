@@ -373,16 +373,19 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 
 }
 
 .tab-child {
 	align-self: center;
 	justify-self: center;
+	list-style-type: none;
 }
 
 #test {
 	height: 100%;
+	width: 100%;
 }
 
 .individual-training {
