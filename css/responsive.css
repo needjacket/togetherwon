@@ -44,6 +44,10 @@
 		border-radius: 3%;
 	}
 
+	#nav-logo {
+		max-width: 150px;
+	}
+
 
 }
 
@@ -94,6 +98,10 @@
 
 	#about p {
 		font-size: 15px; 
+	}
+
+	#nav-logo {
+		max-width: 120px;
 	}
 	
 	

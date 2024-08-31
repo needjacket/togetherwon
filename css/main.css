@@ -214,6 +214,16 @@ h1, h2, h3, h4, h5, h6 {
 .about-text {
 	font-size: 20px;
 }
+
+.yellow-text {
+	color: #4c667a;
+	font-weight: bold;
+	background-color: #de9115;
+	text-align: center;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+
 /*==============================
 =========navigation-section=========
 ================================*/
@@ -237,6 +247,16 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	line-height: 28px;
 	padding-top: 30px;
+}
+
+#newsletter {
+	padding-top: 15px;
+	margin-top: 15px;
+}
+
+#newsletter:hover {
+	background-color: #b77a17;
+	color: white;
 }
 
 .navbar-brand {
