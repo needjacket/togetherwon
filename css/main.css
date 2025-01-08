@@ -719,3 +719,48 @@ table {
 	color: #fff;
 }
 
+/* media */
+
+.media-card {
+	max-width: 450px;
+	text-align: center;
+	list-style: none;
+	font-weight: 500;
+	font-size: 20px;
+	color: #4c667a;
+
+}
+
+.media-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.media-card-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.media-container {
+	padding-bottom: 60px;
+	padding-top: 30px;
+}
+
+.media-header {
+	text-align: center;
+}
+
+
+
+.footer-img {
+	max-height: 200px;
+}
+
+.footer-img-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}

@@ -48,7 +48,6 @@
 		max-width: 150px;
 	}
 
-
 }
 
 /* sm */
@@ -263,6 +262,25 @@
 	.form-group {
 		width: 100%;
 	}
+
+	.footer-img-container {
+		display: flex;
+		flex-direction: column;
+		padding-top: 15px;
+		align-items: flex-start;
+		padding-left: 10px;
+		padding-bottom: 15px;
+	}
+
+	.media-card-container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.visa-info p {
+		font-size: 8px;
+	}
 }
 
 /* XS Portrait */
@@ -301,6 +319,24 @@
 
 	.form-group {
 		width: 100%;
+	}
+
+	.footer-img-container {
+		display: flex;
+		flex-direction: column;
+		padding-top: 15px;
+		align-items: flex-start;
+		padding-left: 10px;
+		padding-bottom: 15px;
+	}
+
+	.footer-img {
+		max-height: 200px;
+		max-width: 300px;
+	}
+
+	.media-card-container {
+		flex-direction: column;
 	}
 }
 
