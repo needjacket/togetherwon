@@ -63,7 +63,7 @@
 	}
 
 	.pickleball-hero h1 {
-		font-size: 60px;
+		font-size: 80px;
 	}
 	
 	.hero-subtext {
@@ -471,9 +471,22 @@
 		padding-bottom: 15px;
 	}
 
+	.footer-img-box {
+		max-width: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+	}
+
+	.peak-logo {
+		width: 100%;
+	}
+
 	.footer-img {
 		max-height: 200px;
-		max-width: 300px;
+		max-width: 200px;
+		padding: 0 20px;
 	}
 
 	.media-card-container {
