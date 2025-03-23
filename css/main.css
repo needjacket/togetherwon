@@ -770,3 +770,90 @@ table {
 	font-size: 20px;
 	padding-bottom: 10;
 }
+
+/* Pickleball */
+
+.pickleball-hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url(../images/pickleball-court2.png);
+	background-size: cover;
+}
+
+.container-class {
+	padding: 20px;
+}
+
+.row-image {
+	max-width: 90vw;
+	border-radius: 6px;
+}
+
+.card {
+	padding: 10px;
+	background-color: #d9dada;
+	border-radius: 6px;
+	margin-bottom: 15px;
+	color:rgba(0, 0, 0, 0.70);
+}
+
+.bold {
+	font-weight: 500;
+}
+
+.bolder {
+	font-weight: 800;
+}
+
+.card-img {
+	max-width: 340px;
+	border-radius: 3px;
+	margin: auto;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+}
+
+.pickleball-btn {
+	background: linear-gradient(to top, #4c667a, #7891a7);
+	padding: 9px 18px;
+	color: white;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+.pickleball-btn:hover {
+	background: linear-gradient(to top, #3e5262, #5c6e7d);
+	color: white;
+}
+
+.row-image {
+	border-radius: 6px;
+}
+
+.hero-subtext {
+	margin-bottom: 15px;
+}
+
+.pickleball-info {
+	background-image: linear-gradient(to top, #3e5262, #4f687d);
+	color: white;
+}
+
+.pickleball-cta {
+	background-image: linear-gradient(to bottom, #3e5262, #364856);
+	background-color: #3e5262;
+	color: white;
+}
+
+#pickleball-contact-us {
+	padding-top: 20px;
+}
+	
+
+
+

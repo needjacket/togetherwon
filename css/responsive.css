@@ -8,11 +8,75 @@
 		padding: 55px;
 		border-radius: 3%;
 	}
+
+	.pickleball-btn {
+		font-size: 20px;
+		padding: 12px 24px;
+	}
+
+	.hero-container {
+		max-width: 800px;
+	}
+
+	.container-class {
+		padding: 60px 60px;
+	}
+
+	.card-content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.card {
+		margin-right: 30px;
+		padding: 15px 30px;
+	}
+
+	.row-content {
+		display: flex;
+		flex-direction: row;;
+	}
+
+	.row-content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.row-image {
+		max-width: 100%;
+		padding: 0px 20px;
+	}
+
+	.right {
+		flex: 0 0 55%;
+	}
+
+	p, a {
+		font-size: 20px;
+	}
+
+	h4 {
+		font-size: 23px;
+	}
+
+	.pickleball-hero h1 {
+		font-size: 80px;
+	}
 	
+	.hero-subtext {
+		margin-bottom: 20px;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
 }
 
 /* md */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1399px) {
 	.instruction-tab .tab-list li {
 		width: 32.8%;
 	}
@@ -31,6 +95,15 @@
 		font-size: 15;
 	}
 
+	p, a {
+		font-size: 18px;
+	}
+
+	#pickleball-hero h4 {
+		font-size: 23px;
+	}
+
+
 	#about h1 {
 		font-size: 30px; 
 	}
@@ -46,6 +119,41 @@
 
 	#nav-logo {
 		max-width: 150px;
+	}
+
+	.hero-container {
+		max-width: 700px;
+	}
+
+	.container-class {
+		padding: 60px 60px;
+	}
+
+	.card-content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.card {
+		margin-right: 20px;
+		padding: 10px 20px;
+	}
+
+	.row-content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.row-image {
+		max-width: 100%;
+		padding: 0px 20px;
+	}
+
+	.right {
+		flex: 0 0 60%;
 	}
 
 }
@@ -102,7 +210,34 @@
 	#nav-logo {
 		max-width: 120px;
 	}
-	
+
+	#pickleball-hero h4 {
+		font-size: 20px;
+	}
+
+	.hero-container {
+		max-width: 600px;
+	}
+
+	.card {
+		max-width: 500px;
+	}
+
+	.row-content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.row-image {
+		padding: 0px 20px;
+		max-width: 100%;
+	}
+
+	.right {
+		flex: 0 0 60%;
+	}
 	
 }
 
@@ -129,6 +264,11 @@
 	h3{
 		font-size:16px;
 	}
+
+	#pickleball-hero h4 {
+		font-size: 20px;
+	}
+
 	.padding {
 		padding: 50px 10px;
 	}
@@ -208,7 +348,8 @@
 		font-size:36px;
 	}
 	#contact-us .padding {
-		padding-bottom:10px;
+		padding-bottom:1 0px;
+		padding-top: 30px;
 	}
 	.contact-content .contact-info {
 		margin-bottom:45px;
@@ -330,9 +471,22 @@
 		padding-bottom: 15px;
 	}
 
+	.footer-img-box {
+		max-width: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+	}
+
+	.peak-logo {
+		width: 100%;
+	}
+
 	.footer-img {
 		max-height: 200px;
-		max-width: 300px;
+		max-width: 200px;
+		padding: 0 20px;
 	}
 
 	.media-card-container {
